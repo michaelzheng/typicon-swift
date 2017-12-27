@@ -11,17 +11,17 @@ Use the [Typicons font](http://www.typicons.com) in your Swift projects.
 ### Using the font
 * Creating a UIFont:
 
-    ```
+```
 UIFont.typiconFontOfSize(50)
 ```
 * Setting the font of a control:
 
-    ```
+```
 myButton.titleLabel?.font = UIFont.typiconFontOfSize:50
 ```
 * Setting text content of a control to an icon:
 
-    ```
+```
 myButton.titleLabel?.text = String.typiconStringForIconName("arrow-right-thick")
 ```
 * To find the identifier for an icon, go to <http://typicons.com> and hover over an icon - the name of the icon will be displayed in the information section.
